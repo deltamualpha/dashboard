@@ -14,7 +14,8 @@
     "blessed-contrib": "^2.3.3",
     "js-yaml": "^3.4.2",
     "lodash": "^3.10.1",
-    "nginxparser": "^1.2.3"
+    "nginxparser": "^1.2.3",
+    "yargs": "^3.25.0"
   },
   "devDependencies": {
     "mocha": "^2.3.2"

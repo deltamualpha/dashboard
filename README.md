@@ -12,6 +12,12 @@ interval, or else weird things happen.
 To use, run `npm install`, then `npm start`. Tests are provided in `/tests/`;
 use `npm test` to run them.
 
+In order to make playing with the dashboard easier (assuming you don't want to 
+test this out on a machine under load), running `demo.js` will start writing 
+into an `access.log` file in the same directory plausible-looking random 
+w3c-formatted log lines. There are CLI opts: `maxRate`, `minRate`, and 
+`movement`, which should be pretty obvious.
+
 Under the Hood
 --------------
 
