@@ -1,0 +1,18 @@
+---
+log:
+  filename: access.log
+  format: '[$time_local] $remote_addr $remote_user "$request" $status $body_bytes_sent "$http_referer" "$http_user_agent"'
+alert: 1000
+updateFrequency:
+  ui: 10
+  alertWindow: 120
+graphs:
+  statuses:
+    - '200'
+    - '201'
+    - '404'
+    - '500'
+  sections:
+    - '/api/'
+    - '/assets/'
+    - '/users/'

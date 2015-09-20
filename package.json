@@ -1,0 +1,22 @@
+{
+  "name": "dashboard",
+  "version": "0.0.1",
+  "description": "A dashboard that reads access logs and displays useful info",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "David Ashby <delta.mu.alpha@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^2.3.3",
+    "js-yaml": "^3.4.2",
+    "lodash": "^3.10.1",
+    "nginxparser": "^1.2.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.2"
+  }
+}
