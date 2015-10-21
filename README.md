@@ -38,6 +38,6 @@ mutating pieces of state.
 Most of the little functions in `util.js` are side-effect-less -- 
 `incrementCounter`, `alertManager`, and `resetRecentStats` being the exceptions.
 I generally like a more functional style of programming, probably because the 
-first 'real' language I learned outside of hobbiest goofing around in PHP was 
+first 'real' language I learned outside of hobbyist goofing around in PHP was 
 Clojure... I find it easier to reason about and a *lot* easier to test all the 
 permutations of.
